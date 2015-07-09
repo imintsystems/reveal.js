@@ -1,4 +1,3 @@
-@import url(../../lib/font/source-sans-pro/source-sans-pro.css);
 /**
  * Imint theme for reveal.js. This is based on the White theme.
  *
@@ -6,14 +5,14 @@
  * Copyright (C) 2015 Hakim El Hattab, http://hakim.se
  */
 section.has-dark-background, section.has-dark-background h1, section.has-dark-background h2, section.has-dark-background h3, section.has-dark-background h4, section.has-dark-background h5, section.has-dark-background h6 {
-  color: #fff; }
+  color: #eeeeec; }
 
 /*********************************************
  * GLOBAL STYLES
  *********************************************/
 body {
-  background: #fff;
-  background-color: #fff; }
+  background: #eeeeec;
+  background-color: #eeeeec; }
 
 .reveal {
   font-family: 'Myriad Pro', Verdana, sans-serif;
@@ -22,7 +21,7 @@ body {
   color: #222; }
 
 ::selection {
-  color: #fff;
+  color: #eeeeec;
   background: #98bdef;
   text-shadow: none; }
 
@@ -194,7 +193,7 @@ body {
   border: none; }
 
 .reveal .roll span:after {
-  color: #fff;
+  color: #eeeeec;
   background: #1a54a1; }
 
 /*********************************************
@@ -202,7 +201,6 @@ body {
  *********************************************/
 .reveal section img {
   margin: 15px 0px;
-  background: rgba(255, 255, 255, 0.12);
   border: none; }
 
 .reveal a img {
