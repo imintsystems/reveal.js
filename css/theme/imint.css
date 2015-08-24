@@ -4,6 +4,7 @@
  * Copyright (C) 2015 Imint AB
  * Copyright (C) 2015 Hakim El Hattab, http://hakim.se
  */
+section.dark, section.dark h1, section.dark h2, section.dark h3, section.dark h4, section.dark h5, section.dark h6,
 section.has-dark-background, section.has-dark-background h1, section.has-dark-background h2, section.has-dark-background h3, section.has-dark-background h4, section.has-dark-background h5, section.has-dark-background h6 {
   color: #eeeeec; }
 
@@ -68,7 +69,7 @@ body {
 /* Ensure certain elements are never larger than the slide itself */
 .reveal img, .reveal video, .reveal iframe {
   max-width: 95%;
-  max-height: 95%; }
+  max-height: 350px; }
 
 .reveal strong, .reveal b {
   font-weight: bold; }
